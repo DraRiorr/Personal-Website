@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif ;
+}
+
+body{
+    height: 100vh;
+    background: #212529;  
+}
+
+.nav-bar{
+    margin-top: 30px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar h2{
+    color: #ffa642;
+}
+
+.nav-bar ul{
+    
+    display: flex;
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+ .nav-bar ul li a{
+    transition: color 0.3s ease;
+    margin-right: 30px;
+    color: #ffa642;
+    text-decoration: none;
+ }
+
+.nav-bar ul li:hover a {
+    color: aliceblue;
+}
+
+ .nav-bar button{
+    background:  #ffa642;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    padding: 10px 50px;
+ }
+
+ .nav-bar button:hover{
+    background: #eee;
+ }
+
+ .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+ }
+
+ .main h4{
+    font-size: 50px;
+    color: #eee;
+    margin-bottom: 10px;
+ }
+
+ .main h4 span{
+    color: #ffa642;
+ }
+
+.main .Subtitle p{
+    color: #eee;
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+
+ .main .description p{
+    font-size: 14px;
+    color: gray;
+ }
+
+ .main .img img{
+    position: relative;
+    width: 420px;
+    bottom: 50px;
+ }
+
+
+ .Garauntee{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .Garauntee .item{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 120px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #eee  ;
+    transition: border-color 0.3s ease;
+    margin-bottom: 20px;
+ }
+
+ .Garauntee .item .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+ }
+
+ .Garauntee .item .icon:hover{
+    background-color: #ffa642;
+ }
+
+ .Garauntee .item:hover{
+    border:1px solid #ffa642;
+ }
+
+ .Garauntee .item h4{
+    color: #ffa642;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+ }
+
+ .Garauntee .item p{
+    color: #eee;
+ }
+
+ .Garauntee .item .Countinue {
+    font-size: 24px;
+    color :#eee
+ }
